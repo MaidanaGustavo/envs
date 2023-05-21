@@ -1,0 +1,93 @@
+{
+  // Workbench
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.untitled.hint": "hidden",
+  
+  // Editor settings
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 0,
+  "terminal.integrated.fontSize": 12,
+  "editor.tabSize": 3,
+  "editor.fontFamily": "Fira Code SemiBold, monospace",
+  "editor.minimap.autohide": true,
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "line",
+  "editor.rulers": [80, 120],
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.autoIndent": "full",
+  "editor.formatOnPaste": true,
+
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.cursorBlinking": "blink",
+  "editor.cursorStyle": "line",
+  "git.mergeEditor": true,
+  "omnisharp.useEditorFormattingSettings": true,
+  "git.autofetch": "all",
+  "git.decorations.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+
+  },
+    
+  // VSCode stuff
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  
+  // Emmet
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "subcomponents": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "polacode.transparentBackground": true,
+  "polacode.shadow": "none",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "editor.inlineSuggest.enabled": true,
+  "redhat.telemetry.enabled": true,
+  "glassit.alpha": 255,
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": true,
+  "window.menuBarVisibility": "compact",
+}
